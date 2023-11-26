@@ -64,4 +64,5 @@ for i in $(seq 1 5); do sudo mount /dev/md0p$i /raid/part$i; done
 ```
 
 Проверяем результат `df -h`
+
 ![Скрин](https://github.com/FeeLinS9/lesson3/blob/master/picture4.png)
