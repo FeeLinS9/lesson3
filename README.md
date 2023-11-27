@@ -29,8 +29,7 @@
 ```
 mkdir /etc/mdadm
 echo "DEVICE partitions" > /etc/mdadm/mdadm.conf
-mdadm --detail --scan --verbose | awk '/ARRAY/ {print}' >> \
-/etc/mdadm/mdadm.conf
+mdadm --detail --scan --verbose | awk '/ARRAY/ {print}' >> /etc/mdadm/mdadm.conf
 ```
 ![Скрин](https://github.com/FeeLinS9/lesson3/blob/master/picture2.png)
 
